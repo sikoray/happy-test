@@ -1,0 +1,347 @@
+@import "reset.css";
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+header {
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    min-height: 570px;
+    background: url(images/dog-top.png)center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.curves {
+    width: 100vw;
+    max-width: 100%;
+    height: 150px;
+    clip-path: ellipse(53% 94% at 50% 95%);
+    background: #ffffff;
+    margin-top: -229px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+}
+
+.line-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 54vw;
+    justify-content: space-between;
+    margin-top: -150px;
+    position: relative;
+    z-index: 9990;
+}
+
+.circle-btn {
+width: 52px;
+height: 52px;
+background-color: #ffffff;
+border-radius: 100%;
+background:url(images/btn-arrow-green.png)center no-repeat;
+background-size: contain;
+filter: grayscale(1);
+transition: 2s;
+}
+
+.margin-top-10 {
+    margin-top: -26px;
+}
+
+.margin-top-20 {
+    margin-top: -20px;
+}
+
+.center-line {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.margin-top-30 {
+   margin-top: -6px; 
+}
+
+
+
+.about-service {
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.about {
+        width: 100vw;
+    max-width: 100%;
+    height: auto;
+    min-height: 543px;
+    background: url(images/arrow.png)center no-repeat;
+    background-size: contain;
+}
+.video-js .vjs-tech {
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+  }
+.my-video-dimensions {
+    width: 100vw;
+    max-width: 100%;
+    height: 370px;
+}
+
+.vjs-big-play-button {
+    width: 58px!important;
+    height: 58px!important;
+    background: url(images/btn-arrow.png)center no-repeat!important;
+    background-size: contain!important;
+    border: none!important;
+    left: inherit!important;
+    top: inherit!important;
+    transition: all 1s ease!important;
+}
+
+.vjs-big-play-button:hover {
+    filter: opacity(65%);
+    
+}
+
+.vjs-icon-placeholder:before{
+    content: none!important;
+}
+
+.video-js {
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+element.style {
+}
+.video-js .vjs-tech {
+    width: 100vw!important;
+    height: 370px!important;
+}
+
+.vjs-control-bar{
+    display: none!important;
+}
+
+.vjs-poster{
+    background-color: transparent!important;
+    background-size: cover!important;
+}
+
+.purpose {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 515px;
+    height: auto;
+    background-color: #f5f6f5;
+    /*background: url(images/dog-purpose.png)no-repeat center;*/
+    background: url('images/draw-dog-left.png') no-repeat left top 228px, url('images/draw-dog-right.png') no-repeat right top 46px, #f5f6f5;
+    background-size: auto;
+}
+
+.testimonials {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 640px;
+    height: auto;
+    background:url(images/green-arrow.png)center no-repeat, #79ac5d;
+    background-size: contain;
+}
+
+footer {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 193px;
+    height: auto;
+    background-color: #48484b;
+}
+
+/*.circle-btn:hover {
+filter: grayscale(0);
+transition: 2s;
+}*/
+
+.tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+}
+
+.active >.circle-btn {    
+    filter: grayscale(0);
+    transition: 1s;
+ }
+
+.green-txt {
+    color: #bbbbbb;
+font-family: Roboto, sans-serif;
+font-size: 14px;
+font-weight: 400;
+}
+
+.active +.green-txt {
+    color: #87c05a!important;
+    transition: 1s;
+}
+.btn-green {
+    width: 212px;
+    height: 46px;
+    background-color: #7dae61;
+    color: #ffffff;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.about-service-two-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 123px;
+    max-width: 100%;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    max-width: 50%;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 354x;
+    max-width: 50%;
+    width: 354px;
+    color: #44434a;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29.99px;
+    margin-left: 60px;
+}
+
+.about-service-title {
+width: 600px;
+    max-width: 100%;
+height: auto;
+min-height: 100px;
+color: #515357;
+font-family: "Roboto Slab";
+font-size: 48px;
+font-weight: 700;
+}
+
+.left-column-title {
+    font-family: "Roboto Slab" ,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #7eae61;
+}
+
+.left-column-link,.left-column-link:hover, .left-column-link:active, .left-column-link:visited {
+    color: #44434a;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 15px;
+    line-height: 18px;
+     text-decoration:none;
+    outline: none;
+}
+
+
+.right-column ul li:before {
+ font-family: Roboto, sans-serif;
+ font-weight: 400;
+ color: #89c25d; 
+ content: "•";
+ font-size: 30px;
+ padding-right: 7px; 
+}
+.right-column-link {
+    color: #7eae61;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.medium-img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    min-height: 300px;
+    object-fit: contain;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 106px;
+}
+
+.header-info-title {
+    color: #ffffff;
+    font-family: "Roboto Slab",sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header-info-txt {
+    color: #ffffff;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width: 1050px) and (min-width: 800px) {
+    .line-top {
+        width: 72vw;}
+}
+
+@media screen and (max-width: 800px) and (min-width: 520px) {
+     .line-top {
+        width: 80vw;}
+    
+     .purpose  {
+        background-size: 26%;}
+}
+
+@media screen and (max-width: 699px) and (min-width: 520px) {}
